@@ -39,7 +39,7 @@ def scatter_plot_all(data_dir="data", out_dir="figures"):
         plt.title(f"Average Neighbor Degree vs. Degree ({name})")
         plt.tight_layout()
 
-        out_path = os.path.join(out_dir, f"{name}_knn_vs_k.png")
+        out_path = os.path.join(out_dir, f"1_knn/{name}_knn_vs_k.png")
         plt.savefig(out_path, dpi=200)
         plt.close()
 
